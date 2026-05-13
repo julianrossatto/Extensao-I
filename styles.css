@@ -1,0 +1,132 @@
+
+        
+        html{
+            scroll-behavior: smooth;
+        }
+
+        body{
+            background-color: #111;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav{
+            position: fixed;    
+            top: 0;
+            width: 100%;
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+            height: 30px;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover{
+            color: #00bfff;
+        }
+
+        section{
+            min-height: 100vh;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            padding: 120px 40px 60px;
+            text-align: center;
+            line-height: 1;
+        }
+
+        #inicio{
+            background: #1E3A5F;
+        }
+
+        #ferramentas{
+            background: #2A4D69;
+        }
+
+        #sugestoes{
+            background: #4B3F72;
+        }
+
+        #contato{
+            background: #6A4C93;
+        }
+
+        h1{
+            font-size: 45px;
+            padding: ;
+            width: 100%;
+            background-color: #254877;
+        }
+
+        #titulo{
+            color: aliceblue; line-height: 2;
+            font-size: 45px;
+            padding: 0 0 0;
+            width: 100%;
+            background-color: #254877;
+        }
+
+        h2{
+            font-size: 50px;
+        }
+
+        h3{
+            font-size: 30px;
+        }
+
+        h4{
+            font-size: 20px
+        }
+
+        .teste_vocacional{
+            font-size: 40px;
+            border-radius: 20px;
+            padding: 30px;
+            margin-top: -10px;
+        }
+
+        .teste_vocacional:hover{
+            backdrop-filter: brightness(150%);
+            transition: 0.3s;
+        }
+
+        p{
+            font-size: 15px;
+        }
+
+        .topicos{
+        display: flex;
+        justify-content: flex-start;
+        gap: 30px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        }
+
+        .card{
+        background-color: rgba(255,255,255,0.2);
+        width: 500px;
+        padding: 30px;
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+        line-height: 1;
+        transition: 0.3s;
+        }
+
+        .card:hover{
+            transform: translateY(-20px);
+            backdrop-filter: brightness(1.2)
+        }
+
+        .card img{
+            width: 80%;
+            height: 50%;
+            border-radius: 15px;
+        }

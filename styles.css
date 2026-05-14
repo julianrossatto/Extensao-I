@@ -45,14 +45,14 @@ section{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 4%;
 }
 
 #inicio{
     background: #1E3A5F;
 }
 
-#ferramentas{
+#teste{
     background: #2A4D69;
 }
 
@@ -91,7 +91,6 @@ h4{
 .conteudo{
     padding: 10px 100px 10px 100px; text-align: center;
     line-height: 2rem;
-    
 }
 
 p{
@@ -100,9 +99,8 @@ p{
 
 .teste_vocacional{
     font-size: 2rem;
-    border-radius: 20px;
-    padding: 5px;
-    color:blanchedalmond
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .teste_vocacional:hover{
@@ -140,6 +138,14 @@ p{
     width: 100%;
     height: auto;
     border-radius: 15px;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.25));
+}
+
+.logo{
+    width: 80px !important;
+    height: 80px;
+    object-fit: contain;
+    margin-top: 20px;
 }
 
 @media (max-width: 768px){

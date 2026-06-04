@@ -168,7 +168,8 @@
             </div>
         </div>
         <br>
-        <p style="font-family: 'Montserrat', sans-serif; margin-bottom: 20px;">Embora esses sejam alguns dos cursos mais
+        <p style="font-family: 'Montserrat', sans-serif; margin-bottom: 20px; padding: 0 50px">Embora esses sejam alguns
+            dos cursos mais
             procurados na área de Tecnologia da Informação, existem diversas outras formações e especializações que
             podem se alinhar aos seus interesses e objetivos profissionais. A tecnologia é um setor amplo, inovador e em
             constante evolução, capaz de oferecer oportunidades para diferentes perfis e habilidades.</p>
@@ -198,7 +199,7 @@
             Sua opinião nos ajuda muito a desenvolver nossos projetos e melhor nos conectar com um visitante!</p>
         <br>
 
-        <form action="https://formsubmit.co/julian20302@edu.unipar.br" method="POST">
+        <form id="formulario">
 
             <div class="formulario">
                 <label for="nome">Qual o seu nome?</label>
@@ -224,18 +225,18 @@
                 <label for="profissao">Você já possui uma profissão?</label>
                 <div class="radio-group">
                     <label><input type="radio" name="profissao" value="sim" required>Sim</label>
-                    <label><input type="radio" name="profissao" value="ok" required>Não</label>
+                    <label><input type="radio" name="profissao" value="nao" required>Não</label>
                 </div>
             </div>
 
             <div class="formulario">
                 <label>O conteúdo do site foi útil pra você?</label>
                 <div class="radio-group">
-                    <label><input type="radio" name="avaliacao" value="sim" required>Sim</label>
+                    <label><input type="radio" name="avaliacao" value="otimo" required>Ótimo</label>
 
-                    <label><input type="radio" name="avaliacao" value="ok" required>Foi ok</label>
+                    <label><input type="radio" name="avaliacao" value="bom" required>Bom</label>
 
-                    <label><input type="radio" name="avaliacao" value="nao_gostei" required>Não</label>
+                    <label><input type="radio" name="avaliacao" value="ruim" required>Ruim</label>
                 </div>
             </div>
 
@@ -249,6 +250,8 @@
 
         </form>
     </section>
+    <script src="script.js"></script>
+
 
 </body>
 

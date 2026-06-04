@@ -1,4 +1,4 @@
-const formulario = document.getElementById("formulario");
+const formulario = document.getElementById("formulario-extensao");
 
 formulario.addEventListener("submit", async function(event){
 

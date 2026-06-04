@@ -22,7 +22,7 @@ formulario.addEventListener("submit", async function(event){
     try {
 
         await fetch(
-            "https://script.google.com/a/macros/edu.unipar.br/s/AKfycbzwCFP6XQlWmsxRl0zozLIuInsoATQBWI94TIoGdjpYGpcVqjOf0kFeJ9o8-2USuhyG1w/exec",
+            "https://script.google.com/macros/s/AKfycbydJEIDeTm9O1ChvYPdhZfkwshMhO6LlaRvmtwOcYWYuxS-Wja-A0s1f7YnJ93pn-9u0w/exec",
             {
                 method: "POST",
                 body: JSON.stringify(dados)

@@ -35,8 +35,9 @@ nav a {
 }
 
 a {
-    color: blanchedalmond;
+    color: gold;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
@@ -156,14 +157,9 @@ p {
 }
 
 .teste_vocacional {
-    font-size: 2rem;
+    font-size: 2.5rem;
     border-radius: 10px;
-    padding: 10px;
-}
-
-.teste_vocacional:hover {
-    backdrop-filter: brightness(150%);
-    transition: 0.3s;
+    color: gold;
 }
 
 .topicos {
@@ -201,7 +197,6 @@ p {
 
 .imagem img {
     margin-top: 15px;
-    background-color: rgba(255, 255, 255, 0.2);
     width: 500px;
     height: auto;
     max-width: 90%;
@@ -262,6 +257,9 @@ button:hover {
     color: black;
 }
 
+#formulario-extensao{
+    color: whitesmoke;
+}
 
 @media (max-width: 768px) {
 
@@ -291,6 +289,10 @@ button:hover {
     .conteudo img {
         margin-top: 10px;
         width: 150px;
+    }
+
+    .teste_vocacional {
+        font-size: 2.2rem;
     }
 
     nav a {

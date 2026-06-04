@@ -61,12 +61,17 @@ section {
     background: #1E3A5F;
 }
 
+#inicio span{
+    font-size: 2rem;
+}
+
 #teste {
     background: #2A4D69;
 }
 
 #sugestoes {
-    background: #37658a;
+    background: #6A4C93;
+    line-height: 3em;
 }
 
 #tecnologia {
@@ -78,11 +83,12 @@ section {
 }
 
 #contato {
-    background: #6A4C93;
+    background: #813e8a;
 }
 
 #unipar {
-    background: #8b4c93;
+    background: #6d3c74;
+    
 }
 
 h1 {
@@ -90,6 +96,9 @@ h1 {
     padding: 60px 20px;
     width: 100%;
     background-color: #254877;
+    color: #FFFFFF;
+    font-weight: 800;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.4);
 }
 
 h2 {
@@ -117,7 +126,6 @@ h4 {
     padding: 0;
     text-align: center;
     line-height: 1rem;
-    width: 1000px;
 
 }
 
@@ -244,10 +252,11 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
+    transition: 0.3s;
 }
 
 button:hover {
-    background-color: #ffffff;
+    background-color: white;
     color: black;
 }
 
@@ -261,6 +270,11 @@ button:hover {
 
     h1 {
         line-height: 2px;
+        font-size: 2rem;
+    }
+
+    #inicio span{
+        font-size: 1.5rem;
     }
 
     p {
@@ -270,6 +284,11 @@ button:hover {
     .conteudo {
         padding: 0 10px 0 10px;
 
+    }
+
+    .conteudo img{
+        margin-top: 10px;
+        width: 150px;
     }
 
     nav a {

@@ -117,20 +117,22 @@ h4{
     padding: 0;
     text-align: center;
     line-height: 1rem;
+    width: 1000px;
+
 }
 
 .cursos div:hover{
-    background: white;
-    color: black;
+    background: #936bbe;
 }
 
 .cursos div {
-    background-color: #000000;
+    background-color: #45325a;
     color: white;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
     transition: 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .cursos p{
@@ -281,18 +283,13 @@ p{
         padding-bottom: 20px;
     }
 
-    .cursos p{
-        text-align: justify;
+    .cursos div{
+            max-width: 150px;
+            font-size: 0.8rem;
     }
-
-
 
     .topicos{
         flex-direction: column;
         align-items: center;
-    }
-
-    .card{
-        width: 90%;
     }
 }

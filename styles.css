@@ -61,7 +61,7 @@ section {
     background: #1E3A5F;
 }
 
-#inicio span{
+#inicio span {
     font-size: 2rem;
 }
 
@@ -88,7 +88,7 @@ section {
 
 #unipar {
     background: #6d3c74;
-    
+
 }
 
 h1 {
@@ -98,7 +98,7 @@ h1 {
     background-color: #254877;
     color: #FFFFFF;
     font-weight: 800;
-    text-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
 }
 
 h2 {
@@ -232,7 +232,9 @@ label {
     font-weight: bold;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
@@ -273,7 +275,7 @@ button:hover {
         font-size: 2rem;
     }
 
-    #inicio span{
+    #inicio span {
         font-size: 1.5rem;
     }
 
@@ -286,7 +288,7 @@ button:hover {
 
     }
 
-    .conteudo img{
+    .conteudo img {
         margin-top: 10px;
         width: 150px;
     }

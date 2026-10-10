@@ -6,7 +6,6 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 body {
@@ -79,17 +78,8 @@ section {
     background: #4B3F72;
 }
 
-#tecnologia_cursos {
-    background: #4B3F72;
-}
-
 #contato {
     background: #813e8a;
-}
-
-#unipar {
-    background: #6d3c74;
-
 }
 
 h1 {
@@ -112,6 +102,12 @@ h3 {
 
 h4 {
     font-size: clamp(1rem, 3vw, 1.3rem);
+}
+
+h2,
+h3,
+h4 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .conteudo {
@@ -295,7 +291,7 @@ footer {
     }
 
     h1 {
-        line-height: 2px;
+        line-height: 1.2;
         font-size: 2rem;
     }
 
